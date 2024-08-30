@@ -1,0 +1,72 @@
+body{
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    background: hsl(0, 0%, 95%);
+}
+.letra{
+  margin: 8%;
+}
+.hov{
+  &:hover{
+    background:  transparent;
+    color: hsl(0, 0%, 95%);
+  }
+}
+.margen{
+  margin: 13% 4% 13% 4%;
+}
+.boton{
+  color: hsl(31, 77%, 52%);
+  font-weight: 400;
+  padding: 4% 10% 4% 10%;
+  margin-top: 17%;
+}
+.boton1{
+  color: hsl(184, 100%, 22%);
+  font-weight: 400;
+  padding: 4% 10% 4% 10%;
+  margin-top: 17%;
+}
+.boton2{
+  color: hsl(179, 100%, 13%);
+  font-weight: 400;
+  padding: 4% 10% 4% 10%;
+  margin-top: 17%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.naranja {
+  background: hsl(31, 77%, 52%);
+  border-radius: 2% 0 0 2%;
+  color:  hsla(0, 0%, 100%, 0.75);
+}
+.cyan{
+    background: hsl(184, 100%, 22%);
+    border-radius: 0;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+.dark{
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 2% 2% 0;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+.titulo{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+@media(width <= 800px ){
+  .naranja{
+    border-radius:  2% 2% 0 0;
+  }
+  .dark{
+    border-radius: 0 0 2% 2%;
+  }
+}
